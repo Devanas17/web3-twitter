@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Feed from '../components/Feed'
 import Sidebar from '../components/Sidebar'
 
 const style = {
@@ -22,7 +23,7 @@ export default function Home() {
     {/* Sidebar */}
     <Sidebar />
     {/* Feed */}
-    <h1>Feed</h1>
+    <Feed />
     {/* Widgets */}
     <h1>Widgets</h1>
 </div>
