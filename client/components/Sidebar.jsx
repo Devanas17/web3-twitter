@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Link from "next/link"
 import {RiHome7Line, RiHome7Fill, RiFileList2Fill} from "react-icons/ri"
 import {BiHash} from "react-icons/bi"
 import {FiMoreHorizontal, FiBell} from "react-icons/fi"
@@ -89,7 +90,7 @@ const Sidebar = ({initialSelectedIcon= "Home"}) => {
             <div className={style.profileLeft}></div>
             <div className={style.profileRight}>
                 <div className={style.details}>
-                    <div className={style.name}>Aman</div>
+                    <div className={style.name}>Aman Abbasi</div>
                     <div className={style.handle}>0x44d3...5x8h234</div>
                 </div>
 

@@ -4,8 +4,8 @@ import { BiSearch } from 'react-icons/bi'
 
 const style = {
   wrapper: `flex-[1] p-4 overflow-y-scroll scrollbar-hide`,
-  searchBar: `flex items-center bg-[#243340] p-2 rounded-3xl`,
-  searchIcon: `text-[#8899a6] mr-2`,
+  searchBar: `flex items-center bg-[#243340] p-1 rounded-3xl`,
+  searchIcon: `text-[#8899a6] mr-2 `,
   inputBox: `bg-transparent outline-none`,
   section: `bg-[#192734] my-6 rounded-xl overflow-hidden`,
   title: `p-2 font-bold text-lg`,
