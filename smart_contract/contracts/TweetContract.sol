@@ -2,10 +2,6 @@
 
 pragma solidity ^0.8.9;
 
-// owner -> Creater
-// anyone can participate with whatver is entrance fee
-// the winner be select randomly
-
 contract TweetContract {
     event AddTweet(address recipient, uint tweetId);
     event DeleteTweet(uint tweetId, bool isDeleted);
@@ -20,7 +16,7 @@ contract TweetContract {
     Tweet[] private tweets;
 
     // Mapping of Tweet id to the wallet address of the user
-    mapping(uint256 => address) tweetToOwner;
+    mapping(uint256 => address) private tweetToOwner;
 
     // Method to be called by our frontend when trying to add a new Tweet
     function addTweet(string memory tweetText, bool isDeleted) external {
