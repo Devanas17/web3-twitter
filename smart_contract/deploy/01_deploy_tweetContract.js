@@ -23,8 +23,8 @@ module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
   txn = await tweetContract.addTweet("Hello, how are you?", false);
   await txn.wait(1);
   txn = await tweetContract.addTweet("Do you love solidity?", false);
-
   txn = await tweetContract.addTweet("Ethereum or Solana", false);
+
   log(`You've just send your first tweet!`);
   const getTweets = await tweetContract.getAllTweets();
   log(`Get all tweets ${getTweets}`);
