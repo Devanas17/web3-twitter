@@ -37,7 +37,7 @@ const ProfileHeader = () => {
         </div>
 
         <div className={style.coverPhotoContainer}>
-            <img src="https://pbs.twimg.com/profile_banners/856155592578158592/1664301736/600x200" alt="cover" className={style.coverPhoto}/>
+            <img src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=600" alt="cover" className={style.coverPhoto}/>
         </div>
         <div className={style.profileImageContainer}>
             <div className={isProfileImageNFT ? 'hex' : style.profileImageContainer}>
